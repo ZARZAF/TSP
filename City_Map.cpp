@@ -9,7 +9,7 @@ Map::Map(int n)
 	for (int i = 0; i < n; i++)
 	{
 		city_map[i] = Point();
-		cities[i] = "City " + 1;
+		cities[i] = "City " + std::to_string(i);
 	}
 
 	for (int i = 0; i < n; i++)
