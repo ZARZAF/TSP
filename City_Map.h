@@ -8,11 +8,11 @@ using namespace std;
 
 class Map
 {
-	static const int MAX_SIZE = 100;		  //for now static
-	Point city_map[MAX_SIZE];				  //for now static might move to
-	string cities[MAX_SIZE];				  //for now static might move to heap
-	int n;									  //for now static might move to
-	double distances[MAX_SIZE][MAX_SIZE];	  //for now static
+	static const int MAX_SIZE = 100;		 
+	Point city_map[MAX_SIZE];				  
+	string cities[MAX_SIZE];				 
+	int n;									  
+	double distances[MAX_SIZE][MAX_SIZE];	  
 public:
 	Map(int n);
 	Map(string city_file, string points_file);
